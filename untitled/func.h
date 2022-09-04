@@ -9,7 +9,6 @@ typedef struct {
     int x;
     double y;
 } xy;
-
 void set_y(int* index, xy* n){
     n->y = n->x * n->x;
     *index += 9;
